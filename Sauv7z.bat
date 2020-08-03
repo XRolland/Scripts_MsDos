@@ -12,4 +12,4 @@ REM Remove forbidden characters
 set my_time=%my_time::=.%
 
 REM Compress TOTO directory as a timestamped 7z archive
-"C:\Program Files\7-Zip\7z.exe" a -r %mything2save%__%my_date%_%my_time%.7z %mything2save%
+"C:\Program Files\7-Zip\7z.exe" a -r "BackUp\"%mything2save%__%my_date%_%my_time%.7z %mything2save%
